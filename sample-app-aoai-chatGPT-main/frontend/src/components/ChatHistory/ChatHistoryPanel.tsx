@@ -85,7 +85,6 @@ export function ChatHistoryPanel(props: ChatHistoryPanelProps) {
     React.useEffect(() => {}, [appStateContext?.state.chatHistory, clearingError]);
 
     return (
-        /*
         <section className={styles.container} data-is-scrollable aria-label={"chat history panel"}>
             <Stack horizontal horizontalAlign='space-between' verticalAlign='center' wrap aria-label="chat history header">
                 <StackItem>
@@ -185,7 +184,7 @@ export function ChatHistoryPanel(props: ChatHistoryPanelProps) {
                 </DialogFooter>
             </Dialog>
         </section>
-        */
+        /*
         <section className={styles.container} data-is-scrollable aria-label={"chat history panel"}>
             <Stack horizontal horizontalAlign='space-between' verticalAlign='center' wrap aria-label="chat history header">
                 <StackItem>
@@ -278,5 +277,6 @@ export function ChatHistoryPanel(props: ChatHistoryPanelProps) {
                 </DialogFooter>
             </Dialog>
         </section>
+        */
     );
 }

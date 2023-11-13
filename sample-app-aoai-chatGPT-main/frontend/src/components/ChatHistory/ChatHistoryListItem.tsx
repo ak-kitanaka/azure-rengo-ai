@@ -162,7 +162,6 @@ export const ChatHistoryListItemCell: React.FC<ChatHistoryListItemCellProps> = (
     }
 
     return (
-        /*
         <Stack
             key={item.id}
             tabIndex={0}
@@ -241,7 +240,8 @@ export const ChatHistoryListItemCell: React.FC<ChatHistoryListItemCellProps> = (
                 </DialogFooter>
             </Dialog>
         </Stack>
-        */
+
+        /*
         <Stack
             key={item.id}
             tabIndex={0}
@@ -319,6 +319,7 @@ export const ChatHistoryListItemCell: React.FC<ChatHistoryListItemCellProps> = (
                 </DialogFooter>
             </Dialog>
         </Stack>
+        */
         );
 };
 
